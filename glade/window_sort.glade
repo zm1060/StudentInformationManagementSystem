@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.36.0 -->
+<interface>
+  <requires lib="gtk+" version="3.22"/>
+  <object class="GtkWindow" id="window_sort">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkButton" id="button_TD">
+            <property name="label" translatable="yes">SortByTotalDesc</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_TD_clicked" swapped="no"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_TA">
+            <property name="label" translatable="yes">SortByTotalAesc</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_TA_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="y">100</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_ID">
+            <property name="label" translatable="yes">SortByIdDesc</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_ID_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="y">190</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_AD">
+            <property name="label" translatable="yes">SortByAverDesc</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_AD_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">140</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_C">
+            <property name="label" translatable="yes">SortByChinese</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_C_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">300</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_M">
+            <property name="label" translatable="yes">SortByMaths</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_M_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">300</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_E">
+            <property name="label" translatable="yes">SortByEnglish</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_E_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">300</property>
+            <property name="y">190</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_IA">
+            <property name="label" translatable="yes">SortByIdAesc</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_IA_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">140</property>
+            <property name="y">190</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_AA">
+            <property name="label" translatable="yes">SortByAverAesc</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_AA_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">140</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+  </object>
+</interface>
