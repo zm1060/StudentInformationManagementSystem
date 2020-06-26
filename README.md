@@ -21,3 +21,9 @@ For GTK
 ```bash
 sudo apt-get install libgtk-3-dev
 ```
+
+
+
+This is just a model.
+You can add whatever you want to add.
+For example, you can change the background, you can set a photo as background. And change the type of the button. You can even reset the system.
